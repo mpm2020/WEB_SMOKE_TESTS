@@ -1,0 +1,24 @@
+2024-05-29T01:12:03,595 [main] INFO  (commonSetup.java:44) - URL: https://www.saucedemo.com/
+2024-05-29T01:12:07,948 [main] INFO  (loginTest.java:26) - LOGGING INTO SITE
+2024-05-29T01:12:07,948 [main] INFO  (commonSetup.java:60) - CLOSING DRIVER
+2024-05-29T01:12:21,622 [main] INFO  (commonSetup.java:44) - URL: https://www.saucedemo.com/
+2024-05-29T01:12:25,900 [main] INFO  (homeTest.java:31) - WEBSITE
+2024-05-29T01:12:25,903 [main] INFO  (commonSetup.java:60) - CLOSING DRIVER
+2024-05-29T01:38:42,361 [main] INFO  (commonSetup.java:44) - URL: https://www.saucedemo.com/
+2024-05-29T01:38:54,649 [main] INFO  (loginTest.java:26) - LOGGING INTO SITE
+2024-05-29T01:38:54,668 [main] INFO  (commonSetup.java:60) - CLOSING DRIVER
+2024-05-29T01:39:18,318 [main] INFO  (commonSetup.java:44) - URL: https://www.saucedemo.com/
+2024-05-29T01:39:20,820 [main] INFO  (homeTest.java:31) - WEBSITE
+2024-05-29T01:39:20,825 [main] INFO  (commonSetup.java:60) - CLOSING DRIVER
+2024-05-29T16:04:47,333 [main] INFO  (commonSetup.java:44) - URL: https://www.saucedemo.com/
+2024-05-29T16:04:56,527 [main] INFO  (loginTest.java:26) - LOGGING INTO SITE
+2024-05-29T16:04:56,528 [main] INFO  (commonSetup.java:60) - CLOSING DRIVER
+2024-05-29T16:05:01,067 [main] INFO  (commonSetup.java:44) - URL: https://www.saucedemo.com/
+2024-05-29T16:05:04,520 [main] INFO  (homeTest.java:31) - WEBSITE
+2024-05-29T16:05:04,522 [main] INFO  (commonSetup.java:60) - CLOSING DRIVER
+2024-05-29T16:08:19,888 [main] INFO  (commonSetup.java:44) - URL: https://www.saucedemo.com/
+2024-05-29T16:08:23,636 [main] INFO  (loginTest.java:26) - LOGGING INTO SITE
+2024-05-29T16:08:23,636 [main] INFO  (commonSetup.java:60) - CLOSING DRIVER
+2024-05-29T16:08:30,894 [main] INFO  (commonSetup.java:44) - URL: https://www.saucedemo.com/
+2024-05-29T16:08:34,250 [main] INFO  (homeTest.java:31) - WEBSITE
+2024-05-29T16:08:34,251 [main] INFO  (commonSetup.java:60) - CLOSING DRIVER
