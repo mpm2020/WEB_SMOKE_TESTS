@@ -14,7 +14,7 @@ public class loginPage extends actions {
 
     }
 
-    @FindBy(name="user-name")
+    @FindBy(name="user-name_1")
     WebElement emailTextBox;
 
     @FindBy(name="password")
