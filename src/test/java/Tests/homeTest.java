@@ -31,7 +31,7 @@ public class homeTest extends commonSetup {
             logger.info("WEBSITE");
 
          } catch (Exception e) {
-              logger.error("WEBSITE", e);
+              logger.error("WEBSITE GIT", e);
               screenShot.takeScreenShot(driver, "LBL_ACCOUNT");
               Assert.fail("Exception: " + e.getMessage());
         }
