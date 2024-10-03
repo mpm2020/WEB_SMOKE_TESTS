@@ -13,8 +13,10 @@ import org.testng.annotations.Test;
 public class loginTest extends commonSetup {
     private static final Logger logger = LogManager.getLogger(commonSetup.class);
     loginPage login;
-    @Test(dataProvider="Datos Login",dataProviderClass= validLoginDataProvider.class)
-    public void loginValid(String user,String pass) throws Exception {
+    @Test
+    public void loginValid() throws Exception {
+        String user = System.getProperty("user");  // Leer el usuario desde las propiedades
+        String pass = System.getProperty("pass");
 
         try {
             login= new loginPage(driver);
