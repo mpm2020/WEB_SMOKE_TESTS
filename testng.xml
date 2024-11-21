@@ -4,6 +4,7 @@
     <test  name="Functional Testing">
         <classes>
             <class name="Tests.loginTest" />
+            <class name="Tests.homeTest" />
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->
