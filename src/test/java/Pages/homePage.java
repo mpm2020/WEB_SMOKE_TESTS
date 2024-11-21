@@ -18,7 +18,7 @@ public class homePage extends actions {
 
     }
 
-    @FindBy(xpath="//div[@class='app_logo']")
+    @FindBy(xpath="//div[@class='app_logo1']")
     static WebElement titlelabel;
 
     @FindBy(xpath="//*[text()='Sauce Labs Backpack']")
