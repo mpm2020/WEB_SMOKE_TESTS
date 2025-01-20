@@ -8,6 +8,7 @@ import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.*;
 
 
@@ -25,6 +26,7 @@ public class commonSetup {
 
             String urlWeb = properties.getProperty("url");
             String browser = properties.getProperty("browser");
+            String urlServer = properties.getProperty("selenium.server.url");
 
 
             ChromeOptions options = new ChromeOptions();
@@ -34,7 +36,8 @@ public class commonSetup {
                 driver = new ChromeDriver(options);
             } else {
                 options.addArguments("--headless");
-                driver = new ChromeDriver(options);
+                driver = new RemoteWebDriver(new URL(urlServer), options);
+                // driver = new ChromeDriver(options);
             }
 
             // To maximize browser
