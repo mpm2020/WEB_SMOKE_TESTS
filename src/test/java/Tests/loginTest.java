@@ -9,6 +9,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import java.io.FileReader;
+import java.util.Properties;
 
 public class loginTest extends commonSetup {
     private static final Logger logger = LogManager.getLogger(commonSetup.class);
