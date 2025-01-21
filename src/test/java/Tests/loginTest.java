@@ -15,8 +15,12 @@ public class loginTest extends commonSetup {
     loginPage login;
     @Test
     public void loginValid() throws Exception {
-        String user = System.getProperty("user");  // Leer el usuario desde las propiedades
-        String pass = System.getProperty("pass");
+        
+        Properties properties = new Properties();
+        properties.load(new FileReader("src/test/java/Configuration/configuration.properties"));
+        String user = properties.getProperty("user");  // Leer el usuario desde las propiedades
+        String pass = properties.getProperty("pass");
+
 
         try {
             login= new loginPage(driver);
